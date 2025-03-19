@@ -15,19 +15,6 @@ The **Telekinesis Mod** adds a telekinetic ability to your character in **Lethal
 - **BepInEx**: The mod requires **BepInEx** to work. Make sure you have it installed before using this mod.
 - **Lethal Company**: This mod is designed to work with the **Lethal Company** game.
 
-## Installation
-
-1. **Install BepInEx**:
-   - If you haven't already, install **BepInEx** into your **Lethal Company** directory. This is required for the mod to function.
-   
-2. **Download the Telekinesis Mod DLL**:
-   - After compiling the mod or downloading the DLL file, navigate to your **Lethal Company** directory.
-   
-3. **Place the DLL in the Plugins Folder**:
-   - Copy the **Telekinesis Mod DLL** into the **BepInEx/plugins** folder inside your **Lethal Company** directory.
-   
-4. **Run the Game**:
-   - Launch **Lethal Company** with **BepInEx** running. The mod should now be active and ready to use.
 
 ## How to Use
 
@@ -59,13 +46,4 @@ You can change these values by opening the code and adjusting the respective con
 
 ## Credits
 
-- **BepInEx Team**: For creating the modding framework that powers this mod.
-- **Lethal Company Developers**: For creating the game.
-
-## License
-
-This mod is open-source and available for free use. Feel free to modify and distribute it as long as you credit the original authors.
-
----
-
-**Enjoy the Telekinesis Mod and have fun using your psychic powers in Lethal Company!**
+- **Airzel**: For creating the modding framework that powers this mod.
