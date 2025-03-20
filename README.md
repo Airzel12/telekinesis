@@ -1,49 +1,53 @@
-# Telekinesis Mod for Lethal Company
+echo "# Lethal Company Telekinesis Mod
 
-## Description
+This mod adds telekinetic abilities to your character in Lethal Company, allowing you to grab and throw objects or enemies using psychic powers!
 
-The **Telekinesis Mod** adds a telekinetic ability to your character in **Lethal Company**. With this mod, you can grab and throw objects or enemies using psychic powers, making gameplay more dynamic and fun!
-
-### Features:
-- **Grab Objects & Enemies**: Use **E** to grab objects or enemies within your range.
-- **Throw Objects & Enemies**: Use **F** to throw the grabbed objects or enemies with force.
-- **Carry Up to 2 Objects**: You can carry a maximum of 2 objects at once.
-- **Customizable Range & Force**: The grab range and throw force can be easily adjusted within the code (default values: 5 units for range and 10 force for throw).
-
-## Requirements
-
-- **BepInEx**: The mod requires **BepInEx** to work. Make sure you have it installed before using this mod.
-- **Lethal Company**: This mod is designed to work with the **Lethal Company** game.
-
-
-## How to Use
-
-- **Grab an Object/Enemy**:
-  - Press **E** to grab an object or enemy within range. The object must have a Rigidbody component and must be tagged as **"Interactable"** or **"Enemy"**.
-  
-- **Throw an Object/Enemy**:
-  - Press **F** to throw the grabbed object or enemy. The object will be thrown with a force, and gravity will be re-enabled upon release.
-
-- **Max Objects**:
-  - You can carry up to 2 objects at once. If you try to grab more than that, the mod will log a message.
+## Features
+- Grab objects & enemies with E key
+- Throw objects with F key
+- Carry up to 2 objects at once (configurable)
+- Customizable grab range and throw force
+- Visual effects (particles and glow)
+- Sound effects
+- Network synchronized for multiplayer
 
 ## Configuration
+The mod includes several configurable settings in the BepInEx config file:
 
-The mod allows you to adjust the following settings in the code:
-- **MaxGrabbedObjects**: The maximum number of objects you can carry at once (default: 2).
-- **GrabRange**: The range within which you can grab objects (default: 5 units).
-- **ThrowForce**: The force with which objects are thrown (default: 10 force units).
+### General Settings
+- `GrabRange`: Distance within which you can grab objects (1-10 units)
+- `ThrowForce`: Strength of the throw (1-20 force units)
+- `MaxGrabbedObjects`: Maximum number of objects you can carry (1-5)
 
-You can change these values by opening the code and adjusting the respective constants.
+### Visual Effects
+- `EnableVisualEffects`: Toggle particle effects and glow
+- `UpdateRate`: How frequently grabbed objects update their position
 
-## Troubleshooting
+### Sound Effects
+- `EnableSoundEffects`: Toggle sound effects for grabbing and throwing
 
-- **Object Not Grabbing**:
-  - Ensure that the object you’re trying to grab has a **Rigidbody** and is tagged as either **"Interactable"** or **"Enemy"**.
-  
-- **Error Logs**:
-  - If the mod isn’t working as expected, check the **BepInEx log files** for any error messages. They can help identify any issues with the mod or its configuration.
+## Requirements
+- BepInEx
+- HarmonyLib
+- Lethal Company
+
+## Installation
+1. Install BepInEx to your Lethal Company installation
+2. Place the mod DLL in the BepInEx/plugins folder
+3. Configure settings in BepInEx/config/TelekinesisMod.cfg
+
+## Compilation
+1. Open the solution in Visual Studio 2022 or later
+2. Build the project in Release configuration
+3. The DLL will be output to the `bin\Release\netstandard2.0` folder
+
+## Usage
+- Press E to grab objects within range
+- Press F to throw grabbed objects
+- Objects will glow cyan when grabbed
+- Particle effects will appear when grabbing and throwing
 
 ## Credits
-
-- **Airzel**: For creating the modding framework that powers this mod.
+- YourUsername - Mod author
+- BepInEx - Plugin framework
+- HarmonyLib - Patching library" > "C:\Users\Admin\CascadeProjects\LethalCompanyTelekinesisMod\README.md"
