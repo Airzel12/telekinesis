@@ -1,5 +1,3 @@
-echo "# Lethal Company Telekinesis Mod
-
 This mod adds telekinetic abilities to your character in Lethal Company, allowing you to grab and throw objects or enemies using psychic powers!
 
 ## Features
